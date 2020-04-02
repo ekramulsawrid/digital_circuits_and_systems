@@ -24,6 +24,9 @@
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="v2to4dec.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="v2to4dec.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="v2to4dec.ngc"/>
@@ -33,8 +36,13 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="v2to4dec.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="v2to4dec.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="v2to4dec_summary.html"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="v2to4dec_testbench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="v2to4dec_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="v2to4dec_testbench_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="v2to4dec_testbench_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="v2to4dec_xst.xrpt"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
@@ -43,24 +51,44 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1585802398" xil_pn:in_ck="6046089710807935867" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1585802398">
+    <transform xil_pn:end_ts="1585803538" xil_pn:in_ck="6119942980671353685" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1585803537">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="v2to4dec.vhd"/>
+      <outfile xil_pn:name="v2to4dec_testbench.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1585802398" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-9044832904953873877" xil_pn:start_ts="1585802398">
+    <transform xil_pn:end_ts="1585803553" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8298773646212771264" xil_pn:start_ts="1585803553">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1585802398" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7061238933782622035" xil_pn:start_ts="1585802398">
+    <transform xil_pn:end_ts="1585803553" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="439206639375247752" xil_pn:start_ts="1585803553">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1585802398" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4308829850591481574" xil_pn:start_ts="1585802398">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1585803553" xil_pn:in_ck="6119942980671353685" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1585803553">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="v2to4dec.vhd"/>
+      <outfile xil_pn:name="v2to4dec_testbench.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1585803560" xil_pn:in_ck="6119942980671353685" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="3576323054318187870" xil_pn:start_ts="1585803553">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="v2to4dec_testbench_beh.prj"/>
+      <outfile xil_pn:name="v2to4dec_testbench_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1585803561" xil_pn:in_ck="-2699287389385935943" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7823833120478996139" xil_pn:start_ts="1585803560">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="v2to4dec_testbench_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1585800917" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1585800917">
       <status xil_pn:value="SuccessfullyRun"/>
