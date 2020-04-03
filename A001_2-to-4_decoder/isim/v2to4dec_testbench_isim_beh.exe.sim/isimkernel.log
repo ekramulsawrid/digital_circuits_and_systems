@@ -2,12 +2,12 @@ Command line:
    v2to4dec_testbench_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  43487
+     -socket  51701
 
-Thu Apr  2 00:59:24 2020
+Fri Apr  3 00:09:16 2020
 
 
- Elaboration Time: 0.04 sec
+ Elaboration Time: 0.02 sec
 
  Current Memory Usage: 131.482 Meg
 
@@ -21,9 +21,9 @@ Thu Apr  2 00:59:24 2020
  Total Scalar Nets and Variables : 394
 Total Line Count : 17
 
- Total Simulation Time: 0.04 sec
+ Total Simulation Time: 0.03 sec
 
  Current Memory Usage: 140.923 Meg
 
-Thu Apr  2 01:00:14 2020
+Fri Apr  3 00:09:24 2020
 

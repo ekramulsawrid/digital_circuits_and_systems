@@ -1,0 +1,4 @@
+AR v2to4dec v2to4dec_arch /home/student/github/digital_circuits_and_systems/A002_3-to-8_decoder/v2to4dec.vhd sub00/vhpl01 1585888285
+AR v3to8dec v3to8dec_arch /home/student/github/digital_circuits_and_systems/A002_3-to-8_decoder/v3to8dec.vhd sub00/vhpl03 1585888287
+EN v3to8dec NULL /home/student/github/digital_circuits_and_systems/A002_3-to-8_decoder/v3to8dec.vhd sub00/vhpl02 1585888286
+EN v2to4dec NULL /home/student/github/digital_circuits_and_systems/A002_3-to-8_decoder/v2to4dec.vhd sub00/vhpl00 1585888284

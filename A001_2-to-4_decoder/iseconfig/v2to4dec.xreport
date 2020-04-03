@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-04-02T01:02:02</DateModified>
+  <DateModified>2020-04-03T00:10:10</DateModified>
   <ModuleName>v2to4dec</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>/home/student/github/digital_circuits_and_systems/A001_2-to-4_decoder/iseconfig/v2to4dec.xreport</SavedFilePath>

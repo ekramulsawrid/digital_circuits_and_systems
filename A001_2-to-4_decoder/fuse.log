@@ -8,7 +8,7 @@ Parsing VHDL file "/home/student/github/digital_circuits_and_systems/A001_2-to-4
 Starting static elaboration
 Completed static elaboration
 Fuse Memory Usage: 45352 KB
-Fuse CPU Usage: 1380 ms
+Fuse CPU Usage: 1450 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package vcomponents
@@ -19,6 +19,6 @@ Compiling architecture behavior of entity v2to4dec_testbench
 Time Resolution for simulation is 1ps.
 Compiled 10 VHDL Units
 Built simulation executable /home/student/github/digital_circuits_and_systems/A001_2-to-4_decoder/v2to4dec_testbench_isim_beh.exe
-Fuse Memory Usage: 54604 KB
-Fuse CPU Usage: 1410 ms
-GCC CPU Usage: 710 ms
+Fuse Memory Usage: 54836 KB
+Fuse CPU Usage: 1490 ms
+GCC CPU Usage: 320 ms
