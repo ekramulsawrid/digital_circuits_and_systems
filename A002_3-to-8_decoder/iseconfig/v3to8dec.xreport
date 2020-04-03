@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-04-03T00:30:54</DateModified>
+  <DateModified>2020-04-03T00:47:59</DateModified>
   <ModuleName>v3to8dec</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SummaryTimeStamp>2020-04-03T00:31:38</SummaryTimeStamp>
   <SavedFilePath>/home/student/github/digital_circuits_and_systems/A002_3-to-8_decoder/iseconfig/v3to8dec.xreport</SavedFilePath>
   <ImplementationReportsDirectory>/home/student/github/digital_circuits_and_systems/A002_3-to-8_decoder</ImplementationReportsDirectory>
   <DateInitialized>2020-04-03T00:22:34</DateInitialized>

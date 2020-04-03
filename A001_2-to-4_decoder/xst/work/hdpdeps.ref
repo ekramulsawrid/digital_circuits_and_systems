@@ -1,8 +1,8 @@
 V3 6
 FL /home/student/github/digital_circuits_and_systems/A001_2-to-4_decoder/v2to4dec.vhd 2020/04/02.00:14:25 P.20131013
-EN work/v2to4dec 1585886706 \
+EN work/v2to4dec 1585889187 \
       FL /home/student/github/digital_circuits_and_systems/A001_2-to-4_decoder/v2to4dec.vhd \
       PB ieee/std_logic_1164 1381692176 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/v2to4dec/v2to4dec_arch 1585886707 \
+AR work/v2to4dec/v2to4dec_arch 1585889188 \
       FL /home/student/github/digital_circuits_and_systems/A001_2-to-4_decoder/v2to4dec.vhd \
-      EN work/v2to4dec 1585886706 CP INV CP AND3
+      EN work/v2to4dec 1585889187 CP INV CP AND3
