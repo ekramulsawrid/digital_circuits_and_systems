@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/student/github/digital_circuits_and_systems/A002_3-to-8_decoder/v3to8dec_testbench_isim_beh.exe" -prj "/home/student/github/digital_circuits_and_systems/A002_3-to-8_decoder/v3to8dec_testbench_beh.prj" "work.v3to8dec_testbench" 

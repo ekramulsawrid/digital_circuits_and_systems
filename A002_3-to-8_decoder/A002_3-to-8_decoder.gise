@@ -24,6 +24,7 @@
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="v2to4dec.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="v2to4dec.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="v2to4dec.xst"/>
@@ -36,12 +37,39 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="v3to8dec.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="v3to8dec.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="v3to8dec_summary.html"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="v3to8dec_testbench_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="v3to8dec_xst.xrpt"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1585888766" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1585888766">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1585888831" xil_pn:in_ck="-4361739956238464230" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1585888831">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="v2to4dec.vhd"/>
+      <outfile xil_pn:name="v3to8dec.vhd"/>
+      <outfile xil_pn:name="v3to8dec_testbench.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1585888766" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-9044832904953873877" xil_pn:start_ts="1585888766">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1585888766" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7061238933782622035" xil_pn:start_ts="1585888766">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1585888766" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6177365642978158512" xil_pn:start_ts="1585888766">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
     <transform xil_pn:end_ts="1585888273" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1585888273">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>

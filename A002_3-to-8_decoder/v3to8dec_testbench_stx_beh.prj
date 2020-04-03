@@ -1,0 +1,3 @@
+vhdl isim_temp "v2to4dec.vhd"
+vhdl isim_temp "v3to8dec.vhd"
+vhdl isim_temp "v3to8dec_testbench.vhd"
