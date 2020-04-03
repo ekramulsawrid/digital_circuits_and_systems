@@ -1,2 +1,0 @@
-vhdl isim_temp "v2to4dec.vhd"
-vhdl isim_temp "v2to4dec_testbench.vhd"

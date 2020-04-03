@@ -1,1 +1,0 @@
-xst -intstyle ise -ifn "/home/student/github/digital_circuits_and_systems/A001_2-to-4_decoder/v2to4dec.xst" -ofn "/home/student/github/digital_circuits_and_systems/A001_2-to-4_decoder/v2to4dec.syr" 

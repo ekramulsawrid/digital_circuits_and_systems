@@ -1,5 +1,0 @@
-set -tmpdir "/home/student/github/digital_circuits_and_systems/A001_2-to-4_decoder/xst/projnav.tmp"
-set -xsthdpdir "/home/student/github/digital_circuits_and_systems/A001_2-to-4_decoder/xst"
-elaborate
--ifn v2to4dec.prj
--ifmt mixed
