@@ -1,0 +1,3 @@
+vhdl work "slrl_latch.vhd"
+vhdl work "sr_latch_en.vhd"
+vhdl work "sr_latch_en_testbench.vhd"

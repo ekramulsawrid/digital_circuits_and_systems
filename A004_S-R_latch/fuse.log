@@ -1,0 +1,27 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin/unwrapped/fuse -intstyle ise -incremental -o /home/student/github/digital_circuits_and_systems/A004_S-R_latch/sr_latch_en_testbench_isim_beh.exe -prj /home/student/github/digital_circuits_and_systems/A004_S-R_latch/sr_latch_en_testbench_beh.prj work.sr_latch_en_testbench 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/student/github/digital_circuits_and_systems/A004_S-R_latch/slrl_latch.vhd" into library work
+Parsing VHDL file "/home/student/github/digital_circuits_and_systems/A004_S-R_latch/sr_latch_en.vhd" into library work
+WARNING:HDLCompiler:946 - "/home/student/github/digital_circuits_and_systems/A004_S-R_latch/sr_latch_en.vhd" Line 50: Actual for formal port r_l is neither a static name nor a globally static expression
+Parsing VHDL file "/home/student/github/digital_circuits_and_systems/A004_S-R_latch/sr_latch_en_testbench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 45348 KB
+Fuse CPU Usage: 1370 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package vcomponents
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture slrl_latch_arch of entity slrl_latch [slrl_latch_default]
+Compiling architecture sr_latch_en_arch of entity sr_latch_en [sr_latch_en_default]
+Compiling architecture behavior of entity sr_latch_en_testbench
+Time Resolution for simulation is 1ps.
+Compiled 12 VHDL Units
+Built simulation executable /home/student/github/digital_circuits_and_systems/A004_S-R_latch/sr_latch_en_testbench_isim_beh.exe
+Fuse Memory Usage: 54600 KB
+Fuse CPU Usage: 1410 ms
+GCC CPU Usage: 750 ms

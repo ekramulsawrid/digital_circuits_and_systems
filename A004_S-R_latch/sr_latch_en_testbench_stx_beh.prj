@@ -1,0 +1,3 @@
+vhdl isim_temp "slrl_latch.vhd"
+vhdl isim_temp "sr_latch_en.vhd"
+vhdl isim_temp "sr_latch_en_testbench.vhd"

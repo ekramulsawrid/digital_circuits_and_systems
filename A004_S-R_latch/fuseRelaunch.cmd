@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/student/github/digital_circuits_and_systems/A004_S-R_latch/sr_latch_en_testbench_isim_beh.exe" -prj "/home/student/github/digital_circuits_and_systems/A004_S-R_latch/sr_latch_en_testbench_beh.prj" "work.sr_latch_en_testbench" 

@@ -39,6 +39,29 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1586060841" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1586060841">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586060841" xil_pn:in_ck="8278951694415079914" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1586060841">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <outfile xil_pn:name="slrl_latch.vhd"/>
+      <outfile xil_pn:name="sr_latch_en.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1586060841" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-9044832904953873877" xil_pn:start_ts="1586060841">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586060841" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7061238933782622035" xil_pn:start_ts="1586060841">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586060841" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-5177354801572790988" xil_pn:start_ts="1586060841">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
     <transform xil_pn:end_ts="1586060576" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1586060576">
       <status xil_pn:value="SuccessfullyRun"/>
     </transform>
