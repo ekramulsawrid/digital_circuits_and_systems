@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-04-05T00:20:48</DateModified>
+  <DateModified>2020-04-05T00:30:44</DateModified>
   <ModuleName>sr_latch_en</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SummaryTimeStamp>2020-04-05T00:23:21</SummaryTimeStamp>
   <SavedFilePath>/home/student/github/digital_circuits_and_systems/A004_S-R_latch/iseconfig/sr_latch_en.xreport</SavedFilePath>
   <ImplementationReportsDirectory>/home/student/github/digital_circuits_and_systems/A004_S-R_latch</ImplementationReportsDirectory>
   <DateInitialized>2020-04-05T00:20:48</DateInitialized>

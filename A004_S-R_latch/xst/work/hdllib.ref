@@ -1,4 +1,0 @@
-EN slrl_latch NULL /home/student/github/digital_circuits_and_systems/A004_S-R_latch/slrl_latch.vhd sub00/vhpl00 1586060587
-AR slrl_latch slrl_latch_arch /home/student/github/digital_circuits_and_systems/A004_S-R_latch/slrl_latch.vhd sub00/vhpl01 1586060588
-AR sr_latch_en sr_latch_en_arch /home/student/github/digital_circuits_and_systems/A004_S-R_latch/sr_latch_en.vhd sub00/vhpl03 1586060590
-EN sr_latch_en NULL /home/student/github/digital_circuits_and_systems/A004_S-R_latch/sr_latch_en.vhd sub00/vhpl02 1586060589
