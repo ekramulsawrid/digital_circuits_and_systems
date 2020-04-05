@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/student/github/digital_circuits_and_systems/A004_S-R_latch/sr_latch_en.xst" -ofn "/home/student/github/digital_circuits_and_systems/A004_S-R_latch/sr_latch_en.syr" 
