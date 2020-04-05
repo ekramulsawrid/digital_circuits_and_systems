@@ -1,2 +1,0 @@
-vhdl isim_temp "slrl_latch.vhd"
-vhdl isim_temp "slrl_latch_testbench.vhd"
