@@ -1,0 +1,29 @@
+Command line:
+   slrl_latch_testbench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  59053
+
+Sat Apr  4 23:55:08 2020
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 131.486 Meg
+
+ Total Signals          : 47
+ Total Nets             : 33
+ Total Signal Drivers   : 8
+ Total Blocks           : 8
+ Total Primitive Blocks : 6
+ Total Processes        : 7
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 393
+Total Line Count : 19
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 140.927 Meg
+
+Sat Apr  4 23:55:32 2020
+

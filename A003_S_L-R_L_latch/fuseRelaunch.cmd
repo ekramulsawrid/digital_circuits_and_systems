@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "/home/student/github/digital_circuits_and_systems/A003_S_L-R_L_latch/slrl_latch_testbench_isim_beh.exe" -prj "/home/student/github/digital_circuits_and_systems/A003_S_L-R_L_latch/slrl_latch_testbench_beh.prj" "work.slrl_latch_testbench" 
+-intstyle "ise" -incremental -o "/home/student/github/digital_circuits_and_systems/A003_S_L-R_L_latch/slrl_latch_testbench_isim_beh.exe" -prj "/home/student/github/digital_circuits_and_systems/A003_S_L-R_L_latch/slrl_latch_testbench_beh.prj" "slrl_latch_testbench" 

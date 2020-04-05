@@ -44,7 +44,7 @@ ARCHITECTURE behavior OF slrl_latch_testbench IS
          R_L : IN  std_logic;
          S_L : IN  std_logic;
          Q : OUT  std_logic;
-         QN : OUT  std_logic
+         Q_N : OUT  std_logic
         );
     END COMPONENT;
     
@@ -93,3 +93,4 @@ BEGIN
    end process;
 
 END;
+
