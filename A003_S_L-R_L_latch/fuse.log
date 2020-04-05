@@ -1,0 +1,10 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin/unwrapped/fuse -intstyle ise -incremental -o /home/student/github/digital_circuits_and_systems/A003_S_L-R_L_latch/slrl_latch_testbench_isim_beh.exe -prj /home/student/github/digital_circuits_and_systems/A003_S_L-R_L_latch/slrl_latch_testbench_beh.prj work.slrl_latch_testbench 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/student/github/digital_circuits_and_systems/A003_S_L-R_L_latch/slrl_latch.vhd" into library work
+Parsing VHDL file "/home/student/github/digital_circuits_and_systems/A003_S_L-R_L_latch/slrl_latch_testbench.vhd" into library work
+Starting static elaboration
+ERROR:HDLCompiler:1156 - "/home/student/github/digital_circuits_and_systems/A003_S_L-R_L_latch/slrl_latch_testbench.vhd" Line 47: Formal port <Q_N> does not exist in entity <slrl_latch>.  Please compare the definition of block <slrl_latch> to its component declaration and its instantion to detect the mismatch.
+ERROR:Simulator:777 - Static elaboration of top level VHDL design unit slrl_latch_testbench in library work failed

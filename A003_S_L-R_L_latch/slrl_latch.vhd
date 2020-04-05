@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    23:30:24 04/04/2020 
+-- Create Date:    23:47:05 04/04/2020 
 -- Design Name: 
 -- Module Name:    slrl_latch - slrl_latch_arch 
 -- Project Name: 
@@ -33,7 +33,7 @@ entity slrl_latch is
     Port ( R_L : in  STD_LOGIC;
            S_L : in  STD_LOGIC;
            Q : out  STD_LOGIC;
-           QN : out  STD_LOGIC);
+           Q_N : out  STD_LOGIC);
 end slrl_latch;
 
 architecture slrl_latch_arch of slrl_latch is
@@ -48,7 +48,7 @@ begin
 		U3: INV port map (Qa, Qaa);
 		U4: INV port map (Qb_N, Qbb_N);
 		Q <= Qaa;
-		QN <= Qbb_N;
-
+		Q_N <= Qbb_N;
+		
 end slrl_latch_arch;
 

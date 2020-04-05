@@ -1,8 +1,8 @@
 V3 5
-FL /home/student/github/digital_circuits_and_systems/A003_S_L-R_L_latch/slrl_latch.vhd 2020/04/04.23:36:01 P.20131013
-EN work/slrl_latch 1586057794 \
+FL /home/student/github/digital_circuits_and_systems/A003_S_L-R_L_latch/slrl_latch.vhd 2020/04/04.23:48:47 P.20131013
+EN work/slrl_latch 1586058554 \
       FL /home/student/github/digital_circuits_and_systems/A003_S_L-R_L_latch/slrl_latch.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/slrl_latch/slrl_latch_arch 1586057795 \
+AR work/slrl_latch/slrl_latch_arch 1586058555 \
       FL /home/student/github/digital_circuits_and_systems/A003_S_L-R_L_latch/slrl_latch.vhd \
-      EN work/slrl_latch 1586057794 CP AND2 CP INV
+      EN work/slrl_latch 1586058554 CP AND2 CP INV

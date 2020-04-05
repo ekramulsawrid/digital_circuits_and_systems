@@ -158,7 +158,7 @@ Found no macro
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:2170 - Unit slrl_latch : the following signal(s) form a combinatorial loop: Q, Qb_N, Qa, QN.
+WARNING:Xst:2170 - Unit slrl_latch : the following signal(s) form a combinatorial loop: Q_N, Q, Qb_N, Qa.
 
 Optimizing unit <slrl_latch> ...
 
@@ -259,19 +259,19 @@ Timing constraint: Default path analysis
   Total number of paths / destination ports: 3 / 2
 -------------------------------------------------------------------------
 Delay:               9.299ns (Levels of Logic = 6)
-  Source:            R_L (PAD)
-  Destination:       Q (PAD)
+  Source:            S_L (PAD)
+  Destination:       Q_N (PAD)
 
-  Data Path: R_L to Q
+  Data Path: S_L to Q_N
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             1   0.824   0.357  R_L_IBUF (R_L_IBUF)
-     AND2:I0->O            1   0.562   0.357  U2 (Qb_N)
-     INV:I->O              2   0.562   0.380  U4 (QN_OBUF)
-     AND2:I1->O            1   0.562   0.357  U1 (Qa)
+     IBUF:I->O             1   0.824   0.357  S_L_IBUF (S_L_IBUF)
+     AND2:I0->O            1   0.562   0.357  U1 (Qa)
      INV:I->O              2   0.562   0.380  U3 (Q_OBUF)
-     OBUF:I->O                 4.396          Q_OBUF (Q)
+     AND2:I1->O            1   0.562   0.357  U2 (Qb_N)
+     INV:I->O              2   0.562   0.380  U4 (Q_N_OBUF)
+     OBUF:I->O                 4.396          Q_N_OBUF (Q_N)
     ----------------------------------------
     Total                      9.299ns (7.468ns logic, 1.831ns route)
                                        (80.3% logic, 19.7% route)
@@ -280,12 +280,12 @@ Delay:               9.299ns (Levels of Logic = 6)
 
 
 Total REAL time to Xst completion: 13.00 secs
-Total CPU time to Xst completion: 5.97 secs
+Total CPU time to Xst completion: 5.95 secs
  
 --> 
 
 
-Total memory usage is 166992 kilobytes
+Total memory usage is 167080 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    5 (   0 filtered)
